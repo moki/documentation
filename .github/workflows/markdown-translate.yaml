@@ -1,0 +1,24 @@
+name: markdown-translation action
+on:
+  pull_request:
+    types: [opened]
+    branches:
+      - develop
+  issue_comment:
+    types: [created, edited]
+jobs:
+  markdown-translation:
+    permissions:
+      pull-requests: write
+      contents: write
+      packages: write
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: moki/markdown-translation-gha@alpha
+        with:
+          allowed-associations: '["OWNER", "COLLABORATOR"]'
+          github-token: ${{secrets.GITHUB_TOKEN}}
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
