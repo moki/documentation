@@ -9,21 +9,27 @@
     <body>
       <trans-unit id="1">
         <source>title</source>
+        <target>титул</target>
       </trans-unit>
       <trans-unit id="2">
         <source>list item</source>
+        <target>элемент списка</target>
       </trans-unit>
       <trans-unit id="3">
         <source>content inside</source>
+        <target>содержимое внутри</target>
       </trans-unit>
       <trans-unit id="4">
         <source>what&apos;s going on</source>
+        <target>что нового</target>
       </trans-unit>
       <trans-unit id="5">
         <source>hey</source>
+        <target>прив</target>
       </trans-unit>
       <trans-unit id="6">
         <source>title</source>
+        <target>титул</target>
       </trans-unit>
     </body>
   </file>

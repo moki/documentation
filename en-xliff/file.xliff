@@ -9,9 +9,11 @@
     <body>
       <trans-unit id="1">
         <source>file.md title</source>
+        <target>титул file.md</target>
       </trans-unit>
       <trans-unit id="2">
         <source>file with cool content</source>
+        <target>файл с классным содержанием</target>
       </trans-unit>
     </body>
   </file>
