@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="en/file.md" source-language="ru-RU" target-language="en-US" datatype="markdown">
+    <header>
+      <skeleton>
+        <external-file href="en-xliff/file.skl.md"></external-file>
+      </skeleton>
+    </header>
+    <body>
+      <trans-unit id="1">
+        <source>file.md</source>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>file content goes here</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
