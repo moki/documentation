@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: moki/markdown-translation-gha@alpha-v0.0.1
+      - uses: diplodoc-platform/markdown-translation-action@alpha-v0.0.1
         with:
           allowed-associations: '["OWNER", "COLLABORATOR"]'
           github-token: ${{secrets.GITHUB_TOKEN}}
