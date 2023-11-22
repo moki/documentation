@@ -15,7 +15,6 @@ jobs:
       issues: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: diplodoc-platform/markdown-translation-action@alpha-v0.0.4
         with:
           allowed-associations: '["OWNER", "COLLABORATOR"]'
