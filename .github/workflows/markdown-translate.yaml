@@ -21,7 +21,7 @@ jobs:
             .git
       - name: list branches
         run: git branch -v
-      - uses: diplodoc-platform/markdown-translation-action@alpha-v0.0.4
+      - uses: diplodoc-platform/markdown-translation-action@alpha-v0.0.5
         with:
           allowed-associations: '["OWNER", "COLLABORATOR"]'
           github-token: ${{secrets.GITHUB_TOKEN}}
